@@ -11,3 +11,13 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+// Future works
+At the moment we're only storing the level of our NFTs, why not store more?
+
+Substitute the current tokenIdToLevels[] mapping with a struct that stores:
+
+    Level
+    Speed
+    Strength
+    Life
